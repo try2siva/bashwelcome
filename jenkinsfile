@@ -1,8 +1,2 @@
-node {
-stage('Scm Checkout')
-git 'https://github.com/try2siva/bashwelcome'
-}
-stage('Compile-Package'){
-sh 'mvn package'
-}
-}
+#!/bin/bash
+echo "Welcome to DevOps"
